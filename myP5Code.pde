@@ -11,7 +11,18 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+  //body
+  fill(223, 46, 56);
+ellipse(196,226,230,180)
+//head
+fill(255, 234, 197);
+ellipse(192,158,230,140)
+fill(55, 183, 195);
+//hat
+arc(190, 130, 220, 150, radians(180),radians(360));
+
+// draw a rounded rectangle at (150, 300) with width 100 and height 50
+rect(60,126,20,220)
 
   
 
